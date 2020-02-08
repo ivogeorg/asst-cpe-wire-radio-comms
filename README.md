@@ -1,62 +1,21 @@
 # CPE 1040 - Spring 2020
 
-## Assignment 3: Microbit Screensavers
+## Assignment 3.5: Microbit Wired & Wireless Roundtrip Communication
 
-This is the third assignment for the Spring 2020 installment of the CPE 1040 - Intro to Computer Engineering course at MSU Denver.
+This is an _optional_ assignment for the Spring 2020 installment of the CPE 1040 - Intro to Computer Engineering course at MSU Denver.
 
 ### Overview
 
-This assignnment is more involved than the first two, but uses the same basic micro:bit functions. With some upfront design and several iterations of the implementation, it is within any student who has completed the previous two assignments. It asks you to create 5 "screensavers" for the micro:bit's 5x5 LED array (aka 25-LED matrix). The screensavers are moving patterns of lights that are displayed when the micro:bit is "put to sleep" and until it is "woken up".
+
 
 ### Requirements
 
-#### 1. Modes
+#### 1. 
 
-1. The program should have two modes, _asleep_ and _working_. It should do different things in the different modes.
+1. 
 
-2. Use a conditional (aka _boolean_) variable to track the mode.
+2. 
 
-3. In the _asleep_ mode, the micro:bit should show a "screensaver". In the _working_ mode, it should at least scroll a sentence of your choosing, or optionally do something more sophisticated.
-
-#### 2. Controls
-
-1. Use the A button to "put the screen to sleep" (that is, put the program in the _asleep_ state, activating the "screensaver").
-
-2. Use the B button to "wake the screen up" (that is, put the program in the _working_ state).
-
-3. **CHALLENGE:** Require that the A button is _held down_ for 2 seconds to activate the "screensaver", instead of just being pressed and released. _Hint: You need to use the `buttonIsPressed` and the timing functionality of the micro:bit._
-
-#### 3. Screensavers
-
-1. Design 5 abstract, randomized, moving patterns for the 5x5 LED array. Some ideas:
-   1. Rotating "lines" like | / - \ | / -, that are centered at different spots.
-   2. Dots that appear gradually and disappear gradually (use LED intensity), at random positions.
-   3. Gradient waves, vertical, horizontal, or diagonal, where the parallel rows, columns, or diagonal lines change their intentsity in a wave-like manner.
-   4. Concentric version of the gradient waves.
-   5. **BONUS:** For the most original and unexpected "screensaver" pattern.
-   
-2. Make sure you can control which one is displayed. It's a good idea to wrap them in separate functions with descriptive names.
-
-3. **BONUS:** Write a Screensaver class for the micro:bit.
-
-4. The "screensaver" should time out and the "screen" should go blank. This does not automatically change the mode to _working_.
-
-#### 4. Gestures
-
-1. Pick 5 gestures to correspond to your 5 screensavers. When the micro:bit is _asleep_ and detects a gesture, it should switch to the corresponding "screensaver". This does not automatically change the mode to _working_.
-
-2. The gestures should work _only_ when the "screensaver" is on (hat is, if the micro:bit is in the _working_ mode, the gestures should not do anything).
-
-#### 5. Program versions
-
-1. In the previous assignments, you only copy over your source code to your Github repository once, when you are done with the program. With larger programs, it is better to work in stages, and commit your current progress (usually, a partially completed program) to Github often. As Github is based on the version control system program Git (hence Github :)), you will have copies of all your different versions.
-
-2. A suggested progression for the development of your program can be:
-   1. Two different modes, changed by pressing buttons A and B. In this version, you can display two different icons to show in which mode you are.
-   2. One screensaver working in _asleep_ mode, without a gesture, and a sentence scrolling in _working_ mode. You should remove the icons from (1), as they are no longer needed. Include the description of the frist screensaver in the [screensavers](#screensavers) section of the README. 
-   3. A second screensaver, with two different guestures to trigger each one. Include the second description in the README.
-   4. Separate commits as you add each of the remaining 3 screensavers, along with descriptions in the README.
-   5. Add the demo video URL to the README.
 
 #### 6. README
 
@@ -65,10 +24,8 @@ This assignnment is more involved than the first two, but uses the same basic mi
 #### 7. Demo video
 
 1. Record a 60 second video that shows:
-   1. Switching to _asleep_ mode.
-   2. Switching among the 5 screensavers with guestures.
-   3. Switching to _working_ mode.
-   4. **BONUS:** Show the screensaver timing out and blanking the screen. _Note that the video should be no longer than 60 seconds!_
+   1. 
+   2. 
 
 2. Upload it to [Imgur](https://help.imgur.com/hc/en-us/articles/115000083326-What-files-can-I-upload-What-is-the-size-limit-).
 
@@ -124,9 +81,9 @@ This assignnment is more involved than the first two, but uses the same basic mi
 
 ---
 
-## Screensavers
+## Experiements
 
-_TODO: Add your screensaver descriptions!!!_
+_TODO: Describe your experiements with and time measurements of round-trip communications betwen the two micro:bits._
 
 ## Demo video
 
