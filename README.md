@@ -6,30 +6,63 @@ This is an _optional_ assignment for the Spring 2020 installment of the CPE 1040
 
 ### Overview
 
-
+This assignment explores wireless and wired I/O communication features of the micro:bit.
 
 ### Requirements
 
-#### 1. 
+#### 1. Radio communcation
 
-1. 
+1. Use the micro:bit [radio functions](https://makecode.microbit.org/reference/radio) to communicate different data types between 2 micro:bits:
+   1. An integer.
+   2. A floating-point number.
+   3. A boolean.
+   4. A single character.
+   5. A string.
+   6. **(Challenge)** An object of a class. _Hint: Objects are implemented as [key-value maps](https://www.microsoft.com/en-us/research/uploads/prod/2019/09/static-typescript-draft2.pdf) in TypeScript._
 
-2. 
+2. **(Challenge)** How would you transfer a function across the radio transmission channel that the micro:bit affords?
 
+3. Briefly explain your code in the [experiments](#experiments) section of this [README](README).
 
-#### 6. README
+4. Record a video that shows the communication, upload to Imgur, and link in the [demo video](#demo-video) section of this [README](README).
 
-1. Each time you design a new "screensaver", describe it in the [screensavers](#screensavers) section of the README.
+#### 2. GPIO pin communication
 
-#### 7. Demo video
+1. **(Challenge)** Use the micro:bit [GPIO pin functions](https://makecode.microbit.org/reference/pins) to communicate different data types between 2 micro:bits (_Hint: You might want to consider creating your own protocol and an API like the `sendValue()` and `onReceivedValue()`.):
+   1. An integer.
+   2. A floating-point number.
+   3. A boolean.
+   4. A single character.
+   5. A string.
+   6. An object of a class.
 
-1. Record a 60 second video that shows:
-   1. 
-   2. 
+2. Briefly explain your code in the [experiments](#experiments) section of this [README](README).
 
-2. Upload it to [Imgur](https://help.imgur.com/hc/en-us/articles/115000083326-What-files-can-I-upload-What-is-the-size-limit-).
+3. Record a video that shows the communication, upload to Imgur, and link in the [demo video](#demo-video) section of this [README](README).
 
-3. Include the URL in the [Demo video](#demo-video) section of the README.
+#### 3. Round-trip communication
+
+1. Measure the time it takes for the round-trip communication, using only _radio_, of a:
+   1. Number.
+   2. String. _How do you signal the end of the string? How does the length of the string affect the time?_
+   
+2. Repeat the experiment from (1), now using only _pins_.
+
+3. Repeat the experiment from (1), now using _radio_ in one direction, and _pins_ in the reverse direction.
+
+4. Briefly explain your code in the [experiments](#experiments) section of this [README](README).
+
+5. Record a video that shows the communication, upload to Imgur, and link in the [demo video](#demo-video) section of this [README](README).
+
+#### 4. (Challenge) Clock synchronization
+
+1. Create a MM:SS _binary-coded decimal_ clock to display on the LED matrix of the micro:bit. Can you make it run at the correct speed?
+
+2. Once you are done with (1), create a clock-sync procedure between the 2 micro:bits. Note that the second micro:bit should only receive time and time corrections from the first one. Can you get the two micro:bits to run in sync?
+
+3. Explain your code in the [experiments](#experiments) section of this [README](README).
+
+4. Record a video that shows the communication, upload to Imgur, and link in the [demo video](#demo-video) section of this [README](README).
 
 ## Resources
 
@@ -83,8 +116,8 @@ This is an _optional_ assignment for the Spring 2020 installment of the CPE 1040
 
 ## Experiements
 
-_TODO: Describe your experiements with and time measurements of round-trip communications betwen the two micro:bits._
+_TODO: Describe your communications code, experiements, and comms time-measurements here._
 
 ## Demo video
 
-_TODO: Add your video URL here!!!_
+_TODO: Add your video descriptions and URLs here!!!_
