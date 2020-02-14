@@ -120,4 +120,4 @@ _TODO: Describe your communications code, experiements, and comms time-measureme
 
 ## Demo video
 
-_TODO: Add your video descriptions and URLs here!!!_
+_TODO: Add your video descriptions and URLs here. The videos should clearly show the transmitted values at the origin and destination._
