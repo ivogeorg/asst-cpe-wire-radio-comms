@@ -2,6 +2,10 @@
 
 ## Assignment 3.5: Microbit Wired & Wireless Roundtrip Communication
 
+Author: Ivo Georgiev, PhD  
+Last updated: 2020-02-14  
+Code: 333fe0348d8c8a00b82d3e4d9eab4a63a7a5dace  
+
 This is an _optional_ assignment for the Spring 2020 installment of the CPE 1040 - Intro to Computer Engineering course at MSU Denver.
 
 ### Overview
